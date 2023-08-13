@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["/*"], // 👈 This line allows us to import from folders inside "src" folder using "@"
+      "@/features": ["features/"],
+      "@/app": ["app/"],
+      "@/context": ["context/index.ts"],
+      "@/hooks": ["hooks/index.ts"],
+      "@/ui": ["elements/index.ts"],
+      "@/elements": ["elements/index.ts"],
+      "@/components": ["components/index.ts"],
+      "@/pages": ["pages/index.ts"],
+      "@/globals": ["global/index.ts"],
+      "@/utils": ["utils/index.ts"],
+      "@/types": ["types/index.ts"]
+    }
+  }
+}
